@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    gap: 5px;
+    text-align: left;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.project-name {
+    padding-left: 20%;
+    font-size: 20px;
+    text-align: center;
+}
