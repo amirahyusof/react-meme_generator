@@ -1,20 +1,30 @@
 .header {
     display: flex;
-    gap: 5px;
-    text-align: left;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);;
+    align-items: center;
+    height: 65px;
+    padding: 20px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
 }
 
 .logo {
     max-width: 80px;
+    height: 100%;
+    margin-right: 6px;
 }
 
 .title {
-    font-size: 28px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: auto;
 }
 
 .project-name {
-    padding-left: 20%;
-    font-size: 20px;
-    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.form {
+    margin-bottom: 20px;
+    display: flex;
 }
