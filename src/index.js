@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
 import Header from "./components/header";
-import Form from "./components/Form";
+import Meme from "./components/Meme";
 
 
 const display = document.getElementById('root');
@@ -11,7 +11,7 @@ function Main(){
     return(
         <div>
             <Header />
-            <Form />
+            <Meme />
         </div>
     )
 }

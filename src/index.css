@@ -25,45 +25,43 @@
 }
 
 .body-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 25vh;
 }
 
-.form-top, .form-bottom {
-    display: flex;
-    width: 200px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 4px;
+main {
+    padding: 36px;
 }
 
-p {
-    text-align: center;
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+
+input {
     margin: 10px 0;
     font-size: 14px;
     font-weight: 500;
-}
-
-input {
     margin: 5px 0;
     display: flex;
     padding: 8px 10px;
     border-radius: 5px;
-    gap: 6px;
+    text-indent: 5px;
 
 }
 
 .button-form {
-    width: 477px;
-    height: 40px;
     margin-top: 20px;
-    align-self: center;
+    padding: 20px;
+    grid-column: 1 / -1;
     border-radius: 5px;
     color: white;
     font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
     background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
 }
