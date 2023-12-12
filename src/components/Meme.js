@@ -1,9 +1,11 @@
 import React from "react";
+import memesData from "./memeData";
 
 function Meme(){
+    
     return(
         <main className="body-form">
-            <form className="form">
+            <div className="form">
             <input 
                 type="text" 
                 id="inputField" 
@@ -17,7 +19,7 @@ function Meme(){
                 className="input-text"/>
             
             <button type="button" id="submit" className="button-form">Get new meme image</button>
-            </form>
+            </div>
         </main>
     )
 }

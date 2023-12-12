@@ -65,3 +65,26 @@ input {
     cursor: pointer;
     background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
 }
+
+.container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise-image {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.exercise-button {
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 20px;
+}
