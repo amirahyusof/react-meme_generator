@@ -14,8 +14,8 @@ function Meme(){
 
     
     return(
-        <main className="body-form">
-            <div className="form">
+        <main className="form-content">
+            <div className="form-body">
             <input 
                 type="text" 
                 id="inputField" 

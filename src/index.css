@@ -24,16 +24,13 @@
     font-weight: 500;
 }
 
-.body-form {
+.form-content {
     align-items: center;
     height: 25vh;
-}
-
-main {
     padding: 36px;
 }
 
-.form {
+.form-body {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
