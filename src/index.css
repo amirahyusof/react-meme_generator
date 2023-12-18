@@ -71,17 +71,11 @@ input {
     justify-content: center;
 }
 
-.exercise-image {
-    max-width: 50%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.exercise-button {
-    padding: 10px;
-    background-color: aquamarine;
-    border: none;
-    border-radius: 5px;
-    width: 250px;
-    font-size: 20px;
+.meme-image {
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
 }
