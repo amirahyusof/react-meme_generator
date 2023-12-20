@@ -34,6 +34,7 @@
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
+    margin-bottom: 17px;
     justify-content: center;
     align-items: center;
 }
@@ -72,10 +73,10 @@ input {
 }
 
 .meme-image {
-    max-width: 80%;
+    max-width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 200px;
+    margin-top: 150px;
 }
