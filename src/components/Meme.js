@@ -21,8 +21,8 @@ function Meme(){
     function, as seen below:
     */
     React.useEffect(() => {
-        function getMemes(){
-            const res = await  fetch("https://api.imgflip.com/get_memes")
+        async function getMemes(){
+            const res = await fetch("https://api.imgflip.com/get_memes")
             const data = await res.json()
             setAllMemeImages(data.data.memes)
         }
